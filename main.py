@@ -1,13 +1,13 @@
 # This is a sample Python script.
 
 # Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings .
 import random
 
 while True:
     try:
-        lower = int(input('Input the lower boundary for the range of numbers to start your guesses: '))
-        higher = int(input('Input the Higher boundary for the range of numbers to end your guesses: '))
+        lower = int(input('Input the lower boundary for the range of numbers to start your guesses:  '))
+        higher = int(input('Input the Higher boundary for the range of numbers to end your guesses:  '))
 
     except ValueError as t:
         print('something went wrong', t)
